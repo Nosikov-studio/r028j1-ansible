@@ -9,10 +9,6 @@ server_name    truruki.ru;
         try_files $uri =404;
     }
 
-    location / {
-        return 301 https://$host$request_uri;
-    }
-
 
      location / {
          
